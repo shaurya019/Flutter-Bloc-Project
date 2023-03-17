@@ -1,5 +1,5 @@
-import 'package:bloc_flutter/blocs/internet_bloc.dart';
-import 'package:bloc_flutter/blocs/internet_state.dart';
+import 'package:bloc_flutter/blocs/connection/internet_bloc.dart';
+import 'package:bloc_flutter/blocs/connection/internet_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
