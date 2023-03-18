@@ -1,3 +1,4 @@
+import 'package:bloc_flutter/routes.dart';
 import 'package:bloc_flutter/splash.dart';
 import 'package:bloc_flutter/validation.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       create: (context) => InternetBloc(),
       child: MaterialApp(
        debugShowCheckedModeBanner: false,
-        home: Splash_Screen(),
+        onGenerateRoute: Routes.onGenerateRoute,
+        initialRoute:"/first",
       ),
     );
   }
